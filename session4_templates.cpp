@@ -1,6 +1,10 @@
 // C++ 101 de chillin - Sesión 4
 // https://youtu.be/2MfsjLpTIZc
 // https://www.twitch.tv/videos/966204946
+//
+// Twitter: @pablomarc0s y @BytesAndHumans
+// Twitch: https://www.twitch.tv/nietmetal
+// Youtube: https://www.youtube.com/channel/UCl_nn643qHc9_jnuskaXCGA
 
 #include <cstdio>
 #include <vector>

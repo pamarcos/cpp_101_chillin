@@ -5,14 +5,19 @@ CXXFLAGS += -Wall -pedantic -Werror -Wextra
 CXXFLAGS += -Wno-unused-but-set-variable -Wno-unused-variable -Wno-unused-parameter
 
 SOURCES = $(wildcard *.cpp)
-BINS = $(SOURCES:.cpp=)
+BIN_DIR = bin
+BINS = $(foreach binary,$(SOURCES:.cpp=),$(BIN_DIR)/$(binary))
 
 all: $(BINS)
 
-%: %.cpp Makefile
+$(BIN_DIR)/%: %.cpp Makefile
+	@mkdir -p $(BIN_DIR)
 	$(CXX) -o $@ $(CXXFLAGS) $*.cpp
 
 clean:
 	rm -rf $(BINS)
 
-.PHONY: clean help all
+.PHONY: clean all
+
+dbg-%:
+	@echo "Value of $* = $($*)"

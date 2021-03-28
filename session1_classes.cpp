@@ -1,6 +1,11 @@
 // C++ 101 de chillin - Sesión 1
 // https://youtu.be/1EQbJcWcpus
 // https://www.twitch.tv/videos/904598376
+//
+// Twitter: @pablomarc0s y @BytesAndHumans
+// Twitch: https://www.twitch.tv/nietmetal
+// Youtube: https://www.youtube.com/channel/UCl_nn643qHc9_jnuskaXCGA
+
 
 #include <cstdio>
 #include <cstdint>
