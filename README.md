@@ -66,9 +66,8 @@ que alguien herede de ella, tenemos que declarar su destructor como virtual.
 
 https://youtu.be/2MfsjLpTIZc - https://www.twitch.tv/videos/966204946
 
-Cerramos la última sesión de C++ teórica explicando herencia múltiple y de sus
-consecuencias de la herencia múltiple y los problemas que acarrea, como por
-ejemplo el probla del diamante:
+Cerramos la última sesión teórica de C++ explicando herencia múltiple y las
+movidas que acarrea, como por ejemplo el problema del diamante:
 https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem
 
 **Por fin** hablamos de templates, de cómo nos sirve para reutilizar el mismo
