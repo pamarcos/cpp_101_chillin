@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 {
     int a = 10;
     uint8_t byte;
-    printf("Hello WOrld: %d\n", a);
+    printf("Hello World: %d\n", a);
 
     Ninonino teclita;
     printf("sizeof(Ninonino) = %zu, m_a = %d\n", sizeof(teclita), teclita.m_a);
